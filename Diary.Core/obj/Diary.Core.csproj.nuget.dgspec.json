@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\FP-acadamy\\side_project\\Lap1_remaster\\anonymous-diary-server\\Diary.Core\\Diary.Core.csproj": {}
+    "C:\\Users\\user\\Desktop\\FP-acadamy\\side_project\\Lap1_remaster\\anonymous_diary_server\\Diary.Core\\Diary.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\FP-acadamy\\side_project\\Lap1_remaster\\anonymous-diary-server\\Diary.Core\\Diary.Core.csproj": {
+    "C:\\Users\\user\\Desktop\\FP-acadamy\\side_project\\Lap1_remaster\\anonymous_diary_server\\Diary.Core\\Diary.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\FP-acadamy\\side_project\\Lap1_remaster\\anonymous-diary-server\\Diary.Core\\Diary.Core.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\FP-acadamy\\side_project\\Lap1_remaster\\anonymous_diary_server\\Diary.Core\\Diary.Core.csproj",
         "projectName": "Diary.Core",
-        "projectPath": "C:\\Users\\user\\Desktop\\FP-acadamy\\side_project\\Lap1_remaster\\anonymous-diary-server\\Diary.Core\\Diary.Core.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\FP-acadamy\\side_project\\Lap1_remaster\\anonymous_diary_server\\Diary.Core\\Diary.Core.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\FP-acadamy\\side_project\\Lap1_remaster\\anonymous-diary-server\\Diary.Core\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\FP-acadamy\\side_project\\Lap1_remaster\\anonymous_diary_server\\Diary.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
