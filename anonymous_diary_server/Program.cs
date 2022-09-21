@@ -1,5 +1,7 @@
 using Diary.Core;
 
+var  MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -14,6 +16,15 @@ builder.Services.Configure<DiaryDbConfig>(configuration);
 
 var app = builder.Build();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy =>
+                      {
+                          policy.WithOrigins("http://localhost:3000/");
+                      });
+});
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -21,6 +32,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.MapGet("/", () => "Hello World!");
+
+app.UseCors(MyAllowSpecificOrigins);
 
 app.UseHttpsRedirection();
 
