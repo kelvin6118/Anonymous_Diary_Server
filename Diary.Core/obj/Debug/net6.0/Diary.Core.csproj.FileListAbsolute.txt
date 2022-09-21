@@ -3,3 +3,10 @@ C:\Users\user\Desktop\FP-acadamy\side_project\Lap1_remaster\anonymous-diary-serv
 C:\Users\user\Desktop\FP-acadamy\side_project\Lap1_remaster\anonymous-diary-server\Diary.Core\obj\Debug\net6.0\Diary.Core.AssemblyInfoInputs.cache
 C:\Users\user\Desktop\FP-acadamy\side_project\Lap1_remaster\anonymous-diary-server\Diary.Core\obj\Debug\net6.0\Diary.Core.AssemblyInfo.cs
 C:\Users\user\Desktop\FP-acadamy\side_project\Lap1_remaster\anonymous-diary-server\Diary.Core\obj\Debug\net6.0\Diary.Core.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\FP-acadamy\side_project\Lap1_remaster\anonymous-diary-server\Diary.Core\bin\Debug\net6.0\Diary.Core.deps.json
+C:\Users\user\Desktop\FP-acadamy\side_project\Lap1_remaster\anonymous-diary-server\Diary.Core\bin\Debug\net6.0\Diary.Core.dll
+C:\Users\user\Desktop\FP-acadamy\side_project\Lap1_remaster\anonymous-diary-server\Diary.Core\bin\Debug\net6.0\Diary.Core.pdb
+C:\Users\user\Desktop\FP-acadamy\side_project\Lap1_remaster\anonymous-diary-server\Diary.Core\obj\Debug\net6.0\Diary.Core.dll
+C:\Users\user\Desktop\FP-acadamy\side_project\Lap1_remaster\anonymous-diary-server\Diary.Core\obj\Debug\net6.0\refint\Diary.Core.dll
+C:\Users\user\Desktop\FP-acadamy\side_project\Lap1_remaster\anonymous-diary-server\Diary.Core\obj\Debug\net6.0\Diary.Core.pdb
+C:\Users\user\Desktop\FP-acadamy\side_project\Lap1_remaster\anonymous-diary-server\Diary.Core\obj\Debug\net6.0\ref\Diary.Core.dll
