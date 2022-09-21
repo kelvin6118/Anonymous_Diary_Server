@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\FP-acadamy\side_project\Lap1_remaster\anonymous-diary-server\Diary.Core\obj\Debug\net6.0\Diary.Core.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\FP-acadamy\side_project\Lap1_remaster\anonymous-diary-server\Diary.Core\obj\Debug\net6.0\Diary.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\FP-acadamy\side_project\Lap1_remaster\anonymous-diary-server\Diary.Core\obj\Debug\net6.0\Diary.Core.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\FP-acadamy\side_project\Lap1_remaster\anonymous-diary-server\Diary.Core\obj\Debug\net6.0\Diary.Core.AssemblyInfo.cs
+C:\Users\user\Desktop\FP-acadamy\side_project\Lap1_remaster\anonymous-diary-server\Diary.Core\obj\Debug\net6.0\Diary.Core.csproj.CoreCompileInputs.cache

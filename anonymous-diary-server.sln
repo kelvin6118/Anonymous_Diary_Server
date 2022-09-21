@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anonymous-diary-server", "anonymous-diary-server\anonymous-diary-server.csproj", "{BE047237-6712-4AA7-BED9-EDD4F23B4629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diary.Core", "Diary.Core\Diary.Core.csproj", "{938E4756-C423-4346-AB35-AFBF355F1E6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE047237-6712-4AA7-BED9-EDD4F23B4629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE047237-6712-4AA7-BED9-EDD4F23B4629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE047237-6712-4AA7-BED9-EDD4F23B4629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE047237-6712-4AA7-BED9-EDD4F23B4629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938E4756-C423-4346-AB35-AFBF355F1E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938E4756-C423-4346-AB35-AFBF355F1E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938E4756-C423-4346-AB35-AFBF355F1E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938E4756-C423-4346-AB35-AFBF355F1E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A451A8C-756F-40D3-BA69-742CADBBA38D}
+	EndGlobalSection
+EndGlobal

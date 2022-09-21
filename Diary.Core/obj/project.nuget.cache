@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "8qiGJPy0a2GetXHiC12HK7ER4+m682jXETAO4vPa4QCgBbNu5/tkRUpx3e4E18g8hu0Vlhg6+ujdygkqhPTV9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Desktop\\FP-acadamy\\side_project\\Lap1_remaster\\anonymous-diary-server\\Diary.Core\\Diary.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\mongodb.bson\\2.17.1\\mongodb.bson.2.17.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
