@@ -14,8 +14,6 @@ builder.Services.AddTransient<IDiaryServices, DiaryServices>();
 builder.Services.AddSingleton<IDbClient, DbClient>();
 builder.Services.Configure<DiaryDbConfig>(configuration);
 
-var app = builder.Build();
-
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: MyAllowSpecificOrigins,
@@ -25,6 +23,8 @@ builder.Services.AddCors(options =>
                       });
 });
 
+
+var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
