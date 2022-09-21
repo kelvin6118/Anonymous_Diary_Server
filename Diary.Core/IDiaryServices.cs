@@ -9,5 +9,8 @@ namespace Diary.Core
     public interface IDiaryServices
     {
         List<Diary> GetDiaries();
+        Diary CreateDiary(Diary diary);
+
+        Diary UpdateDiary(Diary diary);
     }
 }

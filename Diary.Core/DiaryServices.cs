@@ -1,37 +1,27 @@
-﻿namespace Diary.Core
+﻿using MongoDB.Driver;
+
+namespace Diary.Core
 {
     public class DiaryServices : IDiaryServices
     {
-
-        public List<Diary> GetDiaries()
+        private readonly IMongoCollection<Diary> _diaries;
+        public DiaryServices(IDbClient dbClient)
         {
-            Comment comment = new Comment()
-            {
-                date = "09/21/2022 17:00",
-                comment = "this is the first comment"
-            };
-
-            Emoji emoji = new Emoji()
-            {
-                happy = 0,
-                like = 1,
-                love = 2
-            };
-
-            Comment[] comments = new Comment[] { comment };
-
-            return new List<Diary>()
-            {
-                new Diary(){
-                    title = "this is a test title",
-                    description = "this is a test description",
-                    comments = comments,
-                    emoji= emoji,
-                    giphy = "https://media3.giphy.com/media/5x5iPtXlR4LzwXzZhi/100.gif?cid=1253b287nm00qq88juxxwaardy3xcyngnemxrikpt19brgsq&rid=100.gif&ct=g"
-                  }
-
-            };
+            _diaries = dbClient.GetDiariesCollection();
         }
-           
+
+        public Diary CreateDiary(Diary diary)
+        {
+            _diaries.InsertOne(diary);
+            return diary;
+        }
+
+        public List<Diary> GetDiaries() => _diaries.Find(diary => true).ToList();
+
+        public Diary UpdateDiary(Diary diary)
+        {
+            _diaries.ReplaceOne(d => d.Id == diary.Id, diary);
+            return diary;
+        }
     }
 }
