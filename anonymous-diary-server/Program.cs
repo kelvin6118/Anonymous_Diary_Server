@@ -9,6 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<IDiaryServices, DiaryServices>();
+builder.Services.AddSingleton<IDbClient, DbClient>();
 builder.Services.Configure<DiaryDbConfig>(configuration);
 
 var app = builder.Build();
