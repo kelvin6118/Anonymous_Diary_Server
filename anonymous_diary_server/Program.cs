@@ -20,8 +20,12 @@ builder.Services.AddCors(options =>
                       policy =>
                       {
                           policy.WithOrigins("http://localhost:3000",
-                              "https://kelvin-anonymous-diary.netlify.app");
+                              "https://kelvin-anonymous-diary.netlify.app")
+                                                .AllowAnyHeader()
+                                                .AllowAnyMethod(); ;
+
                       });
+    
 });
 
 
